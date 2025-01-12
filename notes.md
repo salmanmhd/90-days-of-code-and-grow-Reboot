@@ -127,39 +127,55 @@ Semantic HTML uses meaningful tags that describe the purpose of content. Common 
 
 # Javascript
 
+## Javscript engine and run time
+
+- program that executes js code. It takes js code, complies it to machine code(byte code) and runs it on computer or devices.
+- v8 is the most popular javascript engine, which powers node and chrome as well
+
+### A JavaScript engine executes JavaScript code by following these key steps:
+
+- `Parser`: Converts JavaScript code into an Abstract Syntax Tree (AST), which represents the structure of the code.
+- `Compiler`: Translates the AST into machine code or bytecode, often using Just-In-Time (JIT) compilation for optimization.
+- `Interpreter`: Executes the bytecode, sometimes with the compiler to balance speed and performance.
+- `Garbage` Collector: Manages memory by freeing up unused resources to prevent memory leaks.
+
+### Compilation vs Interpretation
+
 ## Primitive Types
 
--
+- Primitive types are the simplest forms of data. These types are immutable and stored by value.
+  - `string`, `number`, `boolean`, `undefined`, `null`, `symbol`
+- Primitive values are copied by value when assigned to another variable.
 
 ## Stack and heap memory
 
 - `Stack memory` - variable get copy of value
 - `Heap memory` - variable get reference as copy
 
-- Value Types and Reference Types
+## Value Types and Reference Types
 
-  - Primitive are copied by their value
-  - Objects are copied by their reference
-  - So when we pass the primitive in functions their value will not be changed, as it will be copied by their value but for object it will be copied by reference.
+- Primitive are copied by their value
+- Objects are copied by their reference
+- So when we pass the primitive in functions their value will not be changed, as it will be copied by their value but for object it will be copied by reference.
 
-  ```Javascript
-  let a = 12;
-  function abc(number) {
-  number++;
-  }
+```Javascript
+let a = 12;
+function abc(number) {
+number++;
+}
 
-  abc(a);
-   (a); // 12
+abc(a);
+ (a); // 12
 
-  const obj = [12, 3, 4];
+const obj = [12, 3, 4];
 
-  function array(arr) {
-  arr.push(123);
-  }
-  array(obj);
-   (obj); // [12, 3, 4, 123]
+function array(arr) {
+arr.push(123);
+}
+array(obj);
+ (obj); // [12, 3, 4, 123]
 
-  ```
+```
 
 ## `Execution Context` (Call Stack, Execution context stack, program stack, control stack, runtime stack, machine stack)
 

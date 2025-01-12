@@ -2,23 +2,23 @@
 
 ## Fundamentals
 
-- [ ] Primitive Types
-- [ ] Value Types and Reference Types
-- [ ] == vs === vs typeof
-- [ ] Expression vs Statement
+- [x] Primitive Types
+- [x] Value Types and Reference Types
+- [x] == vs === vs typeof
+- [x] Expression vs Statement
 
 ## Scope and Hoisting
 
-- [ ] Function Scope, Block Scope and Lexical Scope
-- [ ] Scope
-- [ ] Hoisting
+- [x] Function Scope, Block Scope and Lexical Scope
+- [x] Scope
+- [x] Hoisting
 
 ## Functions and Closures
 
-- [ ] IIFE (Immediately Invoked Function Expression)
-- [ ] Closures
-- [ ] High Order Functions
-- [ ] Pure Functions, Side Effects, State Mutation and Event Propagation
+- [x] IIFE (Immediately Invoked Function Expression)
+- [x] Closures
+- [x] High Order Functions
+- [x] Pure Functions, Side Effects, State Mutation and Event Propagation
 
 ## Objects and Prototypes
 

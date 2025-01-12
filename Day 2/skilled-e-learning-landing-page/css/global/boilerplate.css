@@ -1,0 +1,38 @@
+:root {
+    --color-blue-900: hsl(233, 54%, 16%);
+    --color-blue-600: hsl(234, 25%, 52%);
+    --color-pink-600: hsl(341, 92%, 62%);
+    --color-pink-300: hsl(341, 100%, 83%);
+    --color-grey: hsl(232, 10%, 100%);
+    --color-white: hsl(0, 0%, 100%);
+    --gradient-pink: liner-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%)) --gradient-purple: liner-gradient(hsl(237, 100%, 64%), hsl(322, 87%, 55%))
+}
+
+*,
+*::after,
+*::before {
+
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-weight: 800;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
