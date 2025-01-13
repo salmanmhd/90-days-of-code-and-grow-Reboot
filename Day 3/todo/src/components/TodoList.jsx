@@ -1,4 +1,5 @@
 import TodoItem from "./TodoItem";
+import "../App.css";
 
 function TodoList({ todos }) {
   return (

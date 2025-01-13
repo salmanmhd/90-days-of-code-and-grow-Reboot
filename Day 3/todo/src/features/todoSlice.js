@@ -1,11 +1,15 @@
 const initialState = {
   todos: [
     {
-      todo: "Task 1",
-      completed: true,
       id: 1,
+      todo: "Try adding some todos, just start typing",
+      completed: false,
     },
-    { id: 12, todo: "how are you bro?", completed: true },
+    {
+      id: 2,
+      todo: "You can edit, delete or mark complete",
+      completed: true,
+    },
   ],
 };
 

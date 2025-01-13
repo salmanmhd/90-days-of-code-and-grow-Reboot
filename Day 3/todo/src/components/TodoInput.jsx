@@ -26,6 +26,7 @@ export default function TodoInput() {
         onChange={(e) => setTodoText(e.target.value)}
         className="h-12 w-[44rem] rounded-xl p-4 text-black shadow-md shadow-black"
         placeholder="What do you want to do"
+        autoFocus
       />
     </form>
   );

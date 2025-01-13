@@ -1,5 +1,3 @@
-// import "./app.css";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./AppLayout";
 import Completed from "./Pages/Completed";
